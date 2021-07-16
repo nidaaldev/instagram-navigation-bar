@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.container .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 6px;
+}
+
+.container .menu .logo {
+    font-family: 'Grand Hotel';
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container .menu .search input {
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+}
+
+.container .menu .icons a {
+    margin-right: 15px;
+}
+
+.container .menu .icons a i {
+    color: #000;
+}
+
+.container .menu .icons a img {
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 10px;
+    }
+}
